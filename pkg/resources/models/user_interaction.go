@@ -1,7 +1,5 @@
 package models
 
-//nolint:gofumpt
-
 import (
 	"time"
 

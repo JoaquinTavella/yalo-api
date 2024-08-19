@@ -2,9 +2,10 @@ package handlers
 
 import (
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 	"yalo-api/pkg/handlers/dtos"
 	"yalo-api/pkg/services/interfaces"
-
 )
 
 type UserInteractionHandler struct {

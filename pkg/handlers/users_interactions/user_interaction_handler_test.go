@@ -1,7 +1,5 @@
 package handlers_test
 
-//nolint:goimports
-
 import (
 	"bytes"
 	"encoding/json"
@@ -9,12 +7,11 @@ import (
 	"net/http/httptest"
 	"testing"
 	"time"
-	"yalo-api/pkg/handlers/dtos"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 	services_mock "yalo-api/mocks/services"
-
+	"yalo-api/pkg/handlers/dtos"
 	handlers "yalo-api/pkg/handlers/users_interactions"
 )
 

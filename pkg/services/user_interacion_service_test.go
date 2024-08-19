@@ -3,11 +3,11 @@ package services_test
 import (
 	"testing"
 	"time"
+
+	resources_mock "yalo-api/mocks/resources"
 	"yalo-api/pkg/handlers/dtos"
 	"yalo-api/pkg/resources/interfaces"
 	"yalo-api/pkg/services"
-
-	resources_mock "yalo-api/mocks/resources"
 )
 
 type UserInteractionTestSuit struct {

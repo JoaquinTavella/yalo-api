@@ -5,10 +5,10 @@ import (
 	"sort"
 	"time"
 
-	"yalo-api/pkg/handlers/dtos"
-	"yalo-api/pkg/resources/interfaces"
-	"yalo-api/pkg/resources/models"
-	"yalo-api/pkg/utils"
+	"yalo-api/internal/handlers/dtos"
+	"yalo-api/internal/resources/interfaces"
+	"yalo-api/internal/resources/models"
+	"yalo-api/internal/utils"
 )
 
 type UserInteractionService struct {

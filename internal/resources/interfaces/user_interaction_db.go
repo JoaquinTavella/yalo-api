@@ -1,6 +1,6 @@
 package interfaces
 
-import "yalo-api/pkg/resources/models"
+import "yalo-api/internal/resources/models"
 
 type UserInteractionDB interface {
 	Set(key string, userInteraction models.UserInteraction) bool

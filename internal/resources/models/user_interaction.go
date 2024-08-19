@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"yalo-api/pkg/handlers/dtos"
+	"yalo-api/internal/handlers/dtos"
 )
 
 type UserInteraction struct {

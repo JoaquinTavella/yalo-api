@@ -3,7 +3,7 @@ package repository
 import (
 	"sync"
 
-	"yalo-api/pkg/resources/models"
+	"yalo-api/internal/resources/models"
 )
 
 type UserInteractionDB struct {

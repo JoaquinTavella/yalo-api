@@ -3,7 +3,7 @@ package servicesmock
 import (
 	"errors"
 
-	"yalo-api/pkg/handlers/dtos"
+	"yalo-api/internal/handlers/dtos"
 )
 
 type UserInteractionServiceMock struct {

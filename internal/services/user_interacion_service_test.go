@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
+	"yalo-api/internal/handlers/dtos"
+	"yalo-api/internal/resources/interfaces"
+	"yalo-api/internal/services"
 	resources_mock "yalo-api/mocks/resources"
-	"yalo-api/pkg/handlers/dtos"
-	"yalo-api/pkg/resources/interfaces"
-	"yalo-api/pkg/services"
 )
 
 type UserInteractionTestSuit struct {

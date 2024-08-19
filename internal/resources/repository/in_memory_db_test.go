@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"yalo-api/pkg/handlers/dtos"
-	"yalo-api/pkg/resources/models"
-	"yalo-api/pkg/resources/repository"
-	"yalo-api/pkg/services"
+	"yalo-api/internal/handlers/dtos"
+	"yalo-api/internal/resources/models"
+	"yalo-api/internal/resources/repository"
+	"yalo-api/internal/services"
 )
 
 type InMemoryDBTestSuite struct {

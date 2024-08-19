@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "157154a5-df1e-4369-aa3a-9408a50effbc",
+		"name": "YALO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28223818",
+		"_collection_link": "https://bold-moon-680838.postman.co/workspace/P2P-Ariel~bc4cf2b8-6870-4157-9850-35cc679fdcae/collection/28223818-157154a5-df1e-4369-aa3a-9408a50effbc?action=share&creator=28223818&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Insert user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n    \"user_id\": \"12345\",\n    \"product_sku\": \"XYZ987\",\n    \"action\": \"add_to_cart\",\n    \"interaction_timestamp\": \"2024-08-17T12:34:56Z\",\n    \"interaction_duration\": 300\n}]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user_interaction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user_interaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user_interaction/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user_interaction",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

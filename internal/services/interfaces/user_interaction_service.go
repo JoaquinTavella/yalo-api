@@ -1,7 +1,7 @@
 package interfaces
 
 import (
-	"yalo-api/pkg/handlers/dtos"
+	"yalo-api/internal/handlers/dtos"
 )
 
 type SaveUserInteractionI interface {

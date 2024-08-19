@@ -32,7 +32,6 @@ linters:
     - forbidigo
     - forcetypeassert
     - funlen
-    - gci
     - ginkgolinter
     - gocheckcompilerdirectives
     - gochecknoglobals
@@ -45,9 +44,7 @@ linters:
     - godox
     - goerr113
     - gofmt
-    - gofumpt
     - goheader
-    - goimports
     - gomnd
     - goprintffuncname
     - gosec

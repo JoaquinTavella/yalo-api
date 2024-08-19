@@ -2,7 +2,6 @@ package repository
 
 import (
 	"sync"
-
 	"yalo-api/pkg/resources/models"
 )
 

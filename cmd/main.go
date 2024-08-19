@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
 	handlers "yalo-api/pkg/handlers/users_interactions"
 	"yalo-api/pkg/resources/repository"
 	"yalo-api/pkg/services"
+
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
